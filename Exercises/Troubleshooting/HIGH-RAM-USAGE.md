@@ -9,7 +9,7 @@ Windows 11
 
 -Navigate to the processes tab
 
--Identify applications that are consuming exessive RAM
+-Identify applications that are consuming excessive RAM
 
 -Then click on the application once,then terminate application by,'END-TASK'
 

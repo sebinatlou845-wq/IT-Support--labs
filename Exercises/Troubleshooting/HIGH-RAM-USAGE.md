@@ -14,4 +14,4 @@ Windows 11
 -Then click on the application once,then terminate application by,'END-TASK'
 
 ## Result
-System will have more memory resulting into faster processing speed
+Terminated high-memory processes to improve system performance

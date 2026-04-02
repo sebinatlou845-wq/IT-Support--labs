@@ -1,12 +1,12 @@
-##PROBLEM
+## PROBLEM
 
 -System is connected to network but cannot access the internet
 
-##ENVIRONMENT
+## ENVIRONMENT
 
 -WINDOWS 10/11
 
-##STEPS TAKEN TO SOLVE ISSUE
+## STEPS TAKEN TO SOLVE ISSUE
 
 -Open command prompt
 -Then type ipconfig/renew
@@ -18,7 +18,7 @@
 
 -once you see 'reply from' ,then yout issue has been solved
 
-##RESULT
+## RESULT
 -system will be connected to network and also be able to access the internet
 
 

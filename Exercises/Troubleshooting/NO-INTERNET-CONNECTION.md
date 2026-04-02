@@ -14,9 +14,9 @@
 
 <img width="1205" height="355" alt="lab1" src="https://github.com/user-attachments/assets/f12b7a00-a991-4846-89b4-56fdefcb86c8" />
 
--once your ip address does show it means that your device is connected to th internet
+-once your ip address does show it means that your device is connected to the internet
 
--After type 'ping google.com
+-After type 'ping google.com'
 
 '<img width="744" height="195" alt="lab2" src="https://github.com/user-attachments/assets/e78c0edf-ce2d-4c32-9d25-c2ae5c9c39ac" />
 

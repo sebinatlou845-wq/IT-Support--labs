@@ -14,7 +14,7 @@
 
 <img width="1205" height="355" alt="lab1" src="https://github.com/user-attachments/assets/f12b7a00-a991-4846-89b4-56fdefcb86c8" />
 
--once your ip address does show it means that your device is connected to the internet
+-If an IP address is assigned,it indicates successful communication with the network
 
 -After type 'ping google.com'
 
@@ -23,7 +23,6 @@
 -once you see 'reply from' ,then your issue has been solved
 
 ## RESULT
--system will be connected to network and also be able to access the internet
-
+-Internet connectivity was successfully restored,confirmed by receiving replies from ping test
 
 

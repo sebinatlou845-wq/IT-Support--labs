@@ -1,6 +1,6 @@
 ## PROBLEM 
 
-WIFI is connected but websites are not opening,which means that there is DNS translating domain names into IP addresses
+WIFI is connected but websites are not opening,which means that there is no DNS translating domain names into IP addresses
 
 ## ENVIRONMENT
 
@@ -20,6 +20,13 @@ is a DNS failure
 -After right click Etherenet, then enter properties
 
 -After double click IPv4
+
+https://github.com/sebinatlou845-wq/IT-Support--labs/blob/main/DNS%20ISSUE%202.png?raw=true
+
+-Then once you see that your preffered and alternative DNS is incorrect you can either enter a correct DNS or 'Obtain DNS server address automatically'
+
+
+
 
 
 

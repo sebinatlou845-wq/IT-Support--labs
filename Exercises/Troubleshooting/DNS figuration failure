@@ -1,6 +1,6 @@
 ## PROBLEM 
 
-WIFI is connected but websites are not opening
+WIFI is connected but websites are not opening,which means that there is DNS translating domain names into IP addresses
 
 ## ENVIRONMENT
 
@@ -11,6 +11,13 @@ WINDOWS 10/11
 -Test internet connectivity and DNS in command prompt in order to diagnose the issue
 
 https://github.com/sebinatlou845-wq/IT-Support--labs/blob/main/dns%20issue.png?raw=true
+
+-Test internet connectivity with ping 8.8.8.8,once it responds with "reply from" ,internet is working perfectly.ping google.com has failed which means that there
+is a DNS failure
+
+-TO fix enter settings then enter network and internet,then enter change adapter options
+
+-After right click Etherenet, then enter properties
 
 
 

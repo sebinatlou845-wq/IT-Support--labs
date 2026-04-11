@@ -1,12 +1,12 @@
-## PROBLEM 
+## PROBLEM:
 
 WIFI is connected but websites are not opening,which means that there is no DNS translating domain names into IP addresses
 
-## ENVIRONMENT
+## ENVIRONMENT:
 
 WINDOWS 10/11
 
-## STEPS TAKEN
+## STEPS TAKEN to solve issue:
 
 -Test internet connectivity and DNS in command prompt in order to diagnose the issue
 

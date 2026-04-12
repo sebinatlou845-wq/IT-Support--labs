@@ -20,15 +20,15 @@ ping 8.8.8.8 responds with 'reply from',which therefore means that internet has 
 
 -then enter IPv4
 
-<img width="1151" height="719" alt="Screenshot 2026-04-11 000535" src="https://github.com/user-attachments/assets/ee670ebd-6d5e-4b4f-8db6-8f5ee1501e07" />
+<img width="700" height="719" alt="Screenshot 2026-04-11 000535" src="https://github.com/user-attachments/assets/ee670ebd-6d5e-4b4f-8db6-8f5ee1501e07" />
 
-you can either manually enter a functional DNS server or obtain IP address automatically
+-you can either manually enter a functional DNS server or obtain IP address automatically
 
-<img width="1152" height="716" alt="image" src="https://github.com/user-attachments/assets/cc1c3199-835b-4d72-b56c-5b5f75398a62" />
+<img width="700" height="716" alt="image" src="https://github.com/user-attachments/assets/cc1c3199-835b-4d72-b56c-5b5f75398a62" />
 
 -After applying 'obtain IP address automatically" we redo ping 8.8.8.8 and ping google.com
 
-<img width="1155" height="716" alt="image" src="https://github.com/user-attachments/assets/3742ccc4-fe4c-4f6e-8345-92dd807a1eec" />
+<img width="700" height="716" alt="image" src="https://github.com/user-attachments/assets/3742ccc4-fe4c-4f6e-8345-92dd807a1eec" />
 
 -Now everything has responded positively
 

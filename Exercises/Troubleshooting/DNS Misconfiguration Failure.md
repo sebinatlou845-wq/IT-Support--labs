@@ -11,3 +11,4 @@ STEPS TAKEN TO SOLVE ISSUE
 -Diagnose the issue with ping 8.8.8.8 and ping google.com
 
 
+

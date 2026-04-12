@@ -1,10 +1,14 @@
 ## PROBLEM 
 
--WIFI is connected but websites are not opening
+-WIFI is connected but websites are not opening indicating a DNS resolution failure
 
 ## ENVIRONMENT
 
 -WINDOWS 10
+
+## ROOT CAUSE
+
+-Incorrect DNS server configuration prevented domain names from being resolved into IP addresses
 
 ## STEPS TAKEN TO SOLVE ISSUE
 
@@ -12,7 +16,7 @@
 
 <img width="700" height="739" alt="Screenshot 2026-04-12 091015" src="https://github.com/user-attachments/assets/b916aef3-800b-454d-bdf3-e10b5c387ae5" />
 
-ping 8.8.8.8 responds with 'reply from',which therefore means that internet has responded positively,ping google.com could not find a host which there for means that a DNS failure has occured
+ping 8.8.8.8 responds with 'reply from',which therefore means that internet has responded positively,ping google.com could not find a host which therefor means that a DNS failure has occured
 
 -enter settings ,then enter network and internet >change adapter options>right-click ethernet>enter proprties>enter IPv4
 

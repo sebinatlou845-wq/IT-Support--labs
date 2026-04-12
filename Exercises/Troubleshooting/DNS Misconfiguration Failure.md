@@ -24,6 +24,20 @@ ping 8.8.8.8 responds with 'reply from',which therefore means that internet has 
 
 you can either manually enter a functional DNS server or obtain IP address automatically
 
+<img width="1152" height="716" alt="image" src="https://github.com/user-attachments/assets/cc1c3199-835b-4d72-b56c-5b5f75398a62" />
+
+-After applying 'obtain IP address automatically" we redo ping 8.8.8.8 and ping google.com
+
+<img width="1155" height="716" alt="image" src="https://github.com/user-attachments/assets/3742ccc4-fe4c-4f6e-8345-92dd807a1eec" />
+
+-Now everything has responded positively
+
+## CONCLUSION
+
+-Both the internet and DNS have responded positively,therefore DNS has successfully been configured
+
+
+
 
 
 

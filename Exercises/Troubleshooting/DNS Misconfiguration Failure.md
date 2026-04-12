@@ -14,11 +14,7 @@
 
 ping 8.8.8.8 responds with 'reply from',which therefore means that internet has responded positively,ping google.com could not find a host which there for means that a DNS failure has occured
 
--enter settings ,then enter network and internet 
-
--enter 'Change adapter options',then right-click Ethernet then enter properties
-
--then enter IPv4
+-enter settings ,then enter network and internet >change adapter options>right-click ethernet>enter proprties>enter IPv4
 
 <img width="700" height="719" alt="Screenshot 2026-04-11 000535" src="https://github.com/user-attachments/assets/ee670ebd-6d5e-4b4f-8db6-8f5ee1501e07" />
 

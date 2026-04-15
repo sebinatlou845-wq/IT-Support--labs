@@ -8,7 +8,7 @@
 
 ## ROOT CAUSE
 
--IP address has been incorrectly configured which disallows it from accessing the Dynamic Host Configuration Protocol(DHCP)
+-The system was configured with a static IP and DNS settings, preventing it from receiving automatic configuration from DHCP.
 
 ## DIAGNOSIS
 
@@ -40,7 +40,7 @@
 
 ## CONCLUSION
 
--System is now able to access the network bcause of proper IP address configuration
+-System is now able to access the network because of proper IP address and DNS configuration
 
 
 

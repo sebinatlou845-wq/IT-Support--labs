@@ -26,7 +26,7 @@
 
 -Then enter properties->double click IPv4
 
--<img width="1148" height="716" alt="image" src="https://github.com/user-attachments/assets/06d50f61-10c4-43bd-9652-8660fa85afb8" />
+-<img width="500" height="716" alt="image" src="https://github.com/user-attachments/assets/06d50f61-10c4-43bd-9652-8660fa85afb8" />
 
 -From the image the manual set IP address is incorrectly set as well as the DNS server
 
@@ -35,6 +35,12 @@
 -re-enter the commands used in the diagnosis to re-test ip address and DNS
 
 <img width="512" height="425" alt="image" src="https://github.com/user-attachments/assets/456e115f-6c2a-482c-900e-4255b0355966" />
+
+-From the image both ,ping 8.8.8.8 and ping google.com respond positively
+
+## CONCLUSION
+
+-System is now able to access the network bcause of proper IP address configuration
 
 
 

@@ -22,11 +22,11 @@
 
 -Enter Windows Defender Firewall ->Advanced settings->Outbound rules,in order to disable settings that are working aginst network connectivity
 
-<img width="1143" height="714" alt="image" src="https://github.com/user-attachments/assets/49903cb1-cf33-4bcd-96f9-7ca8b1bacdf2" />
+<img width="500" height="714" alt="image" src="https://github.com/user-attachments/assets/49903cb1-cf33-4bcd-96f9-7ca8b1bacdf2" />
 
 -Once complete enter command prompt then enter 'ping 8.8.8.8' again to verify changed settings
 
-<img width="1149" height="717" alt="image" src="https://github.com/user-attachments/assets/94162770-0224-4540-a933-e6e8d6cc51e6" />
+<img width="500" height="717" alt="image" src="https://github.com/user-attachments/assets/94162770-0224-4540-a933-e6e8d6cc51e6" />
 
 -Now with a positive reply from the command internet connectivity has now been restored
 

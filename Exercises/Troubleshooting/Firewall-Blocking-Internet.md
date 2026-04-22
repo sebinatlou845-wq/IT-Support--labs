@@ -8,7 +8,7 @@
 
 ## DIAGNOSIS
 
--Website has failed to load, therefore there is no internet
+-IP configuration showed a valid address, but external connectivity failed (ping 8.8.8.8). This indicated traffic was being blocked despite network connection.
 
 <img width="700" height="714" alt="image" src="https://github.com/user-attachments/assets/9fc78d92-67e0-4046-9975-e68f86680ce8" />
 
@@ -20,7 +20,7 @@
 
 ## STEPS TAKEN TO SOLVE ISSUE
 
--Enter Windows Defender Firewall ->Advanced settings->Outbound rules,in order to disable settings that are working aginst network connectivity
+-Enter Windows Defender Firewall ->Advanced settings->Outbound rules,then I identified and disabled a blocking outbound firewall rule
 
 <img width="700" height="714" alt="image" src="https://github.com/user-attachments/assets/49903cb1-cf33-4bcd-96f9-7ca8b1bacdf2" />
 

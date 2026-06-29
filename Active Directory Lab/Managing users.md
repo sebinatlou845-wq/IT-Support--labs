@@ -1,0 +1,78 @@
+## STEPS TAKEN TO DELETE OGs AND USERS
+
+-By default, organizational units (OUs) are protected from accidental deletion. Before deleting an OU, enable Advanced Features from the View menu.
+
+<img width="500" height="431" alt="Screenshot 2026-06-29 121650" src="https://github.com/user-attachments/assets/0f7cadff-a745-47a0-86ad-9616e69461b7" />
+
+-After enabling Advanced Features, additional containers become visible, and you can disable the accidental deletion protection. Right-click the OU, select Properties, navigate to the Object tab, and clear the Protect object from accidental deletion checkbox.
+
+<img width="426" height="480" alt="image" src="https://github.com/user-attachments/assets/5f02bcd2-591b-4dad-9bd3-e8292fd66450" />
+
+-Clear the Protect object from accidental deletion checkbox, then try deleting the OU again. You will be prompted to confirm the deletion. Keep in mind that deleting the OU will also permanently remove any users, groups, and child OUs it contains.
+
+After deleting the extra OU, review the remaining departments and compare the users in Active Directory with those shown in the organizational chart. Create or delete user accounts as necessary to ensure that Active Directory accurately reflects the organizational structure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

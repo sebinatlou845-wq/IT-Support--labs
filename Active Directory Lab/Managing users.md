@@ -12,6 +12,13 @@
 
 After deleting the extra OU, review the remaining departments and compare the users in Active Directory with those shown in the organizational chart. Create or delete user accounts as necessary to ensure that Active Directory accurately reflects the organizational structure.
 
+## Real-World Help Desk Relevance
+
+- User account management
+- OU administration
+- Password resets
+- Security permissions
+
 
 
 

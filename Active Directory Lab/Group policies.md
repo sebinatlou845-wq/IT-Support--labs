@@ -34,6 +34,39 @@ The Settings tab displays the actual contents of the GPO, allowing you to view t
 
 <img width="436" height="531" alt="Screenshot 2026-07-01 222619" src="https://github.com/user-attachments/assets/d25196da-2bc6-4b1a-bc60-b452fc74d89d" />
 
+## RESTRICTING ACCESS TO CONTROL PANEL
+
+-> We want to restrict access to the Control Panel on all machines so that only users in the IT department can access it. Users from other departments should not be able to modify system settings.
+
+> To achieve this, create a new GPO named **Restrict Control Panel Access** and open it for editing. Because this policy applies to users rather than computers, navigate to the **User Configuration** section to find the relevant setting:
+
+<img width="500" height="587" alt="Screenshot 2026-07-01 224040" src="https://github.com/user-attachments/assets/69926264-e23a-4e35-913a-e12479dd2cb2" />
+
+-> Here, the **Prohibit access to Control Panel and PC settings** policy has been enabled.
+
+> After configuring the GPO, it must be linked to the relevant OUs so it applies to the correct users. In this case, the GPO will be linked to the **Marketing**, **Management**, and **Sales** OUs, since these departments should not have access to the Control Panel. This can be done by dragging and dropping the GPO onto each OU.
+
+<img width="500" height="642" alt="Screenshot 2026-07-01 224225" src="https://github.com/user-attachments/assets/0de068e2-85d0-4696-b6a4-26097a090a19" />
+
+## AUTO LOCK SCREEN GPO
+
+-> For the first GPO, which enforces screen locking on workstations and servers, we could apply it directly to the **Workstations**, **Servers**, and **Domain Controllers** OUs created earlier.
+
+> However, an alternative approach is to link the GPO at the **root domain level**, since the goal is for it to apply to all computers. Because the **Workstations**, **Servers**, and **Domain Controllers** OUs are child OUs of the root domain, they will inherit the policy automatically.
+
+> **Note:** If the GPO is applied at the root domain, it will also be inherited by other OUs such as **Sales** and **Marketing**. However, since those OUs contain only user objects, any **Computer Configuration** settings within the GPO will simply be ignored.
+
+> Next, create a new GPO named **Auto Lock Screen** and open it for editing. The required policy can be found at the following path:
+
+<img width="500" height="592" alt="Screenshot 2026-07-01 224512" src="https://github.com/user-attachments/assets/490aa620-d33e-47c9-9198-f23b0da993b9" />
+
+-We will set the inactivity limit to 5 minutes so that computers get locked automatically if any user leaves their session open. After closing the GPO editor, we will link the GPO to the root domain by dragging the GPO to it:
+
+<img width="500" height="598" alt="image" src="https://github.com/user-attachments/assets/5e3c3b12-0a39-40b9-b79f-d4fd04e7abe7" />
+
+
+
+
 
 
 

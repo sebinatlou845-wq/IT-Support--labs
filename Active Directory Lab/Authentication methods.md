@@ -2,7 +2,7 @@
 
 - Used by any recent version of Windows. This is the default protocol in any recent domain.
 
-## NETNTLM
+## NetNTLM
 
 - Legacy authentication protocol kept for compatibility purposes.
 
@@ -21,7 +21,7 @@
 > The TGT itself is encrypted using the password hash of the **krbtgt** account, which means the client cannot read or modify its contents. The encrypted TGT also contains a copy of the session key. Because the KDC can decrypt the TGT using the **krbtgt** account's secret, it can recover 
 the session key whenever needed without storing it separately.
 
-## NETNTLM AUTHENTICATION
+## NetNTLM AUTHENTICATION
 
 -NetNTLM works using a challenge-response mechanism. The entire process is as follows:
 

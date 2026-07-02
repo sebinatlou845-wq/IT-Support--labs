@@ -12,7 +12,7 @@
 
 -When Kerberos is used for authentication, the following process happens:
 
-1. > During the initial authentication process, the user sends their username along with a timestamp encrypted using a key derived from their password to the **Key Distribution Center (KDC)**. The KDC, which typically runs on a domain controller, is responsible for issuing Kerberos tickets.
+ > During the initial authentication process, the user sends their username along with a timestamp encrypted using a key derived from their password to the **Key Distribution Center (KDC)**. The KDC, which typically runs on a domain controller, is responsible for issuing Kerberos tickets.
 
 > After validating the user's credentials, the KDC issues a **Ticket Granting Ticket (TGT)**. The TGT allows the user to request additional tickets for specific services without having to resend their credentials each time they access a network resource. Along with the TGT, the KDC also provides a **session key**, which the client uses to authenticate subsequent requests.
 

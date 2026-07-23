@@ -26,6 +26,8 @@
 
 ## Example :
 
+-Employees laptop is slow
+
 - Low (P4), Minor inconvienience
 
 ## Example :
@@ -35,6 +37,8 @@
 ## Service Level Agreements (SLA)
 
 - A formal contract between IT support teams and users that defines expected response and resolution times for different types of technical issues
+
+
 
 
 
